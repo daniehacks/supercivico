@@ -73,7 +73,7 @@
           %img{:alt => "First slide", :src => "images/comm_map.png"}/
           .container
             .carousel-caption
-              %h1#darker-heading Computer Courses -- The Basics Hi Judith!
+              %h1#darker-heading Computer Courses -- The Basics
               %p#darker-heading
                 Achieve basic literacy on computers to fill out a job app, make a resume, or network electronically.
               %p
@@ -115,7 +115,7 @@
         .col-lg-4
           %img.img-circle{:alt => "Generic placeholder image", :src => "images/productivity_31531.png", :style => "width: 140px; height: 140px;"}/
           %h2
-            = mod_title @mod1
+            -#= mod_title @mod1
           %p
             You should be able to get through a word processor like notepad, MS Word or
             %a{:href => "http://libreoffice.org"} LibreOffice
@@ -127,7 +127,7 @@
         .col-lg-4
           %img.img-circle{:alt => "Generic placeholder image", :src => "images/communication_29033.png", :style => "width: 140px; height: 140px;"}/
           %h2
-            = mod_title @mod2
+            -#= mod_title @mod2
           %p Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
           %p
             %a.btn.btn-default{:href => "/quizzes/communication#scores", :role => "button"} View details &raquo;
@@ -135,7 +135,7 @@
         .col-lg-4
           %img.img-circle{:alt => "Generic placeholder image", :src => "images/crossword_22533.png", :style => "width: 140px; height: 140px;"}/
           %h2
-            = mod_title @mod3
+            -#= mod_title @mod3
           %p Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
           %p
             %a.btn.btn-default{:href => "/quizzes/vocabulary#scores", :role => "button"} View details &raquo;
