@@ -9,4 +9,10 @@ gem "sinatra"
 # DATA
 gem "pg"
 
-gem "unicorn"
+platform :ruby do
+  gem "unicorn"
+end
+
+platform :mswin do
+  gem 'thin'
+end
